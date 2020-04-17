@@ -1,0 +1,465 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #111;
+	background-color: #DFDCE3 ;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-feature-settings: "kern" 1;
+	-moz-font-feature-settings: "kern" 1;
+	-o-font-feature-settings: "kern" 1;
+	font-feature-settings: "kern" 1;
+	font-kerning: normal
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure {
+	margin-bottom: 25px
+	color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+ letter-spacing:0.1em;
+ text-align:center;
+ margin: 40px auto;
+ line-height: 145%;
+ font-size: 14pt;
+ font-variant: small-caps;
+}
+
+img {
+	max-width: 100%;
+	vertical-align: middle
+}
+
+figure>img {
+	display: block
+}
+
+figcaption {
+	font-size: 14px
+}
+
+
+
+li>ul,
+li>ol {
+	margin-bottom: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400
+}
+
+a {
+	color: #E27D60;
+	text-decoration: none
+}
+
+a:visited {
+	color: #1756a9
+}
+
+a:hover {
+	color: #E27D60;
+	text-decoration: underline
+}
+
+blockquote {
+	color: #E27D60;
+	border-left: 4px solid #E27D60;
+	padding-left: 15px;
+	font-size: 18px;
+	letter-spacing: -1px;
+	font-style: italic
+}
+
+blockquote>:last-child {
+	margin-bottom: 0
+}
+
+pre,
+code {
+	font-size: 15px;
+	border: 1px solid #E27D60;
+	border-radius: 3px;
+	background-color: #eef
+}
+
+code {
+	padding: 1px 5px
+}
+
+pre {
+	padding: 8px 12px;
+	overflow-x: auto
+}
+
+pre>code {
+	border: 0;
+	padding-right: 0;
+	padding-left: 0
+}
+
+.wrapper {
+	max-width: -webkit-calc(800px - (30px * 2));
+	max-width: calc(800px - (30px * 2));
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px
+}
+
+@media screen and (max-width: 800px) {
+	.wrapper {
+		max-width: -webkit-calc(800px - (30px));
+		max-width: calc(800px - (30px));
+		padding-right: 15px;
+		padding-left: 15px
+	}
+}
+
+.wrapper:after,
+.footer-col-wrapper:after {
+	content: "";
+	display: table;
+	clear: both
+}
+
+.icon>svg {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle
+}
+
+.icon>svg path {
+	fill: #828282
+}
+
+.site-header {
+	border-top: 5px solid #424242;
+	border-bottom: 1px solid #e8e8e8;
+	min-height: 56px;
+	position: relative
+}
+
+.site-title {
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 56px;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+	float: left
+}
+
+.site-title,
+.site-title:visited {
+	color: #424242
+}
+
+.site-nav {
+	float: right;
+	line-height: 56px
+}
+
+.site-nav a {
+	white-space: nowrap
+}
+
+.site-nav .menu-icon {
+	display: none
+}
+
+.site-nav .page-link {
+	color: #111;
+	line-height: 1.5
+}
+
+.site-nav .page-link:not(:last-child) {
+	margin-right: 20px
+}
+
+@media screen and (max-width: 600px) {
+	.site-nav {
+		line-height: 48px;
+		padding: 20px
+	}
+}
+
+.site-footer {
+	border-top: 1px solid #e8e8e8;
+	padding: 30px 0
+}
+
+.footer-heading {
+	font-size: 18px;
+	margin-bottom: 15px
+}
+
+.contact-list,
+.social-media-list {
+	list-style: none;
+	margin-left: 0
+}
+
+.footer-col-wrapper {
+	font-size: 15px;
+	color: #828282;
+	margin-left: -15px
+}
+
+.footer-col {
+	float: left;
+	margin-bottom: 15px;
+	padding-left: 15px
+}
+
+.footer-col-1 {
+	width: -webkit-calc(35% - (30px / 2));
+	width: calc(35% - (30px / 2))
+}
+
+.footer-col-2 {
+	width: -webkit-calc(20% - (30px / 2));
+	width: calc(20% - (30px / 2))
+}
+
+.footer-col-3 {
+	width: -webkit-calc(45% - (30px / 2));
+	width: calc(45% - (30px / 2))
+}
+
+@media screen and (max-width: 800px) {
+	.footer-col-1,
+	.footer-col-2 {
+		width: -webkit-calc(50% - (30px / 2));
+		width: calc(50% - (30px / 2))
+	}
+	.footer-col-3 {
+		width: -webkit-calc(100% - (30px / 2));
+		width: calc(100% - (30px / 2))
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.footer-col {
+		float: none;
+		width: -webkit-calc(100% - (30px / 2));
+		width: calc(100% - (30px / 2))
+	}
+}
+
+.page-content {
+	padding: 30px 0
+}
+
+.page-heading {
+	font-size: 20px
+}
+
+.post-list {
+	margin-left: 0;
+	list-style: none
+}
+
+.post-list>li {
+	margin-bottom: 30px
+}
+
+.post-meta {
+	font-size: 14px;
+	color: #828282
+}
+
+.post-link {
+	display: block;
+	font-size: 24px
+}
+
+.post-header {
+	margin-bottom: 30px
+}
+
+.post-title {
+	font-size: 42px;
+	letter-spacing: -1px;
+	line-height: 1
+}
+
+@media screen and (max-width: 800px) {
+	.post-title {
+		font-size: 36px
+	}
+}
+
+.post-content {
+	margin-bottom: 30px
+}
+
+.post-content h2 {
+	font-size: 32px
+}
+
+@media screen and (max-width: 800px) {
+	.post-content h2 {
+		font-size: 28px
+	}
+}
+
+.post-content h3 {
+	font-size: 26px
+}
+
+@media screen and (max-width: 800px) {
+	.post-content h3 {
+		font-size: 22px
+	}
+}
+
+.post-content h4 {
+	font-size: 20px
+}
+
+@media screen and (max-width: 800px) {
+	.post-content h4 {
+		font-size: 18px
+	}
+}
+
+#puzzle_wrapper {
+	white-space: nowrap;
+	line-height: 1em;
+	font-family: "Times New Roman", Times, serif
+}
+
+#puzzle_wrapper input {
+	border: 1px solid #bf99c4;
+	margin: 0 0 0 0;
+	padding: 0px 2px 0px 2px;
+	width: 40px;
+	height: 40px;
+	font-size: 25px
+}
+
+#puzzle_wrapper .topborder {
+	border-top: 2px solid #000
+}
+
+#puzzle_wrapper .botborder {
+	border-bottom: 2px solid #000
+}
+
+#puzzle_wrapper .rightborder {
+	border-right: 2px solid #000
+}
+
+#puzzle_wrapper .leftborder {
+	border-left: 2px solid #000
+}
+
+#puzzle {
+	text-align: center;
+	display: inline-block
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.controls {
+	text-align: center
+}
+
+.controls button {
+	padding: 6px 12px 6px 12px;
+	margin: 10px 5px 10px 5px;
+	font-size: 30px
+	background-color:#B80C4D;
+	border: #2e6da4;	 
+	font-family: Arial, Geneva, Arial, Helvetica,  sans-serif;	 
+	font-size: 15px;	 
+	letter-spacing: 1px; 
+	padding: 8px 12px;
+	border-radius: 4px; 
+	line-height: 1.5;
+	 
+}
+
+#message {
+	height: 1em
+}
+
+
+#sub1{
+	color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+ letter-spacing:0.1em;
+ text-align:center;
+ margin: 20px auto;
+ line-height: 45%;
+ font-size: 14pt;
+ font-variant: small-caps;
+}
+
+#sub2{
+	color: #FC4A1A;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+ letter-spacing:0.1em;
+ text-align:center;
+ margin: 30px auto;
+ line-height: 45%;
+ font-size: 14pt;
+ font-variant: small-caps;
+}
+
+#sub3 { 
+	color: #7c795d; 
+	font-family: 'Trocchi', serif; font-size: 25px; 
+	font-weight: normal; 
+	line-height: 48px; 
+	margin: 0; }
+
+#heading {
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+ font-weight: normal;
+        font-size: 1.75em;
+ letter-spacing: .2em;
+ line-height: 1.1em;
+ margin:40px 50px 10px 50px;
+ text-align: center;
+ text-transform: uppercase;
+}
